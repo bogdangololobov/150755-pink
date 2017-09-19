@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Богдан Гололобов](https://up.htmlacademy.ru/adaptive/12/user/150755).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Белов](https://htmlacademy.ru/profile/id96038).
 
 ---
 
