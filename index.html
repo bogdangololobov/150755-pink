@@ -5,8 +5,163 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__menu-header">
+          <a class="main-nav__logo" href="index.html">
+            <img class="main-nav__logo-image" src="http://placehold.it/74x24" width="74" height="24" alt="Логотип Pink">
+          </a>
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="photo.html">Фотографии</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">HTML ACADEMY</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <main class="page-main">
+      <section class="main-header">
+        <h1 class="main-header__logo-text visually-hidden">Pink – взгляни на мир по-новому!</h1>
+        <img class="main-header__logo-image" src="http://placehold.it/320x396" width="320" height="396" alt="Изображение работы приложения Pink">
+      </section>
+      <section class="download">
+        <a class="download__button" href="#">Скачать приложение</a>
+        <ul class="download__list">
+          <li class="download__item">
+            <a class="download__button-icon download__button-icon--apple" href="#">Apple</a>
+          </li>
+          <li class="download__item">
+            <a class="download__button-icon download__button-icon--android" href="#">Android</a>
+          </li>
+          <li class="download__item">
+            <a class="download__button-icon download__button-icon--windows" href="#">Windows Phone</a>
+          </li>
+        </ul>
+        <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section class="features-header">
+        <p class="features-header__text">Устали от серости мегаполиса?</p>
+        <p class="features-header__text">Нам есть, что вам предложить!</p>
+      </section>
+      <section class="features">
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__header">Поднимает настроение</h3>
+            <p class="features__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__header">Меняет мир вокруг</h3>
+            <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__header">Заводит новых друзей</h3>
+            <p class="features__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+      </section>
+      <section class="example">
+        <img class="example__image" src="http://placehold.it/160x260" width="160" height="260" alt="Изображение приложения">
+      </section>
+      <section class="review">
+        <div class="review__wrapper slider">
+          <h2 class="visually-hidden">Отзывы</h2>
+          <ul class="review__list slider__list">
+            <li class="review__item slider__item">
+              <h3 class="review__autor">Николай Петров</h3>
+              <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+            </li>
+            <li class="review__item slider__item">
+              <h3 class="review__autor">Николай Петров</h3>
+              <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+            </li>
+            <li class="review__item slider__item">
+              <h3 class="review__autor">Николай Петров</h3>
+              <q class="review__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
+            </li>
+          </ul>
+          <p class="review__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+      <section class="price">
+        <div class="price__wrapper slider">
+          <h2 class="visually-hidden">Цены</h2>
+          <ul class="price__list slider__list">
+            <li class="price__item slider__item">
+              <div class="price__header">
+                <h3 class="price__name">Стандарт</h3>
+                <span class="price__text">3,99 USD</span>
+              </div>
+              <ul class="price__content-list">
+                <li class="price__content-item">Розовый фильтр</li>
+                <li class="price__content-item">Смайлики</li>
+                <li class="price__content-item">Комментарии</li>
+              </ul>
+            </li>
+            <li class="price__item slider__item">
+              <div class="price__header">
+                <h3 class="price__name">Стандарт</h3>
+                <span class="price__text">3,99 USD</span>
+              </div>
+              <ul class="price__content-list">
+                <li class="price__content-item">Розовый фильтр</li>
+                <li class="price__content-item">Смайлики</li>
+                <li class="price__content-item">Комментарии</li>
+              </ul>
+            </li>
+            <li class="price__item slider__item">
+              <div class="price__header">
+                <h3 class="price__name">Стандарт</h3>
+                <span class="price__text">3,99 USD</span>
+              </div>
+              <ul class="price__content-list">
+                <li class="price__content-item">Розовый фильтр</li>
+                <li class="price__content-item">Смайлики</li>
+                <li class="price__content-item">Комментарии</li>
+              </ul>
+            </li>
+          </ul>
+          <p class="price__toggles slider__toggles">
+            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <p class="contacts__header">Остались вопросы? Свяжитесь с нами!</p>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <h3 class="contacts__name">Звоните</h3>
+            <p class="contacts__text">+7(812)555-66-66</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Пишите:</h3>
+            <p class="contacts__text">mail@htmlacademy.ru</p>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__name">Приезжайте в гости:</h3>
+            <p class="contacts__text">ул.Большая Конюшенная, 19/8</p>
+          </li>
+        </ul>
+        <img class="contacts__map" src="http://placehold.it/320x200" width="320" height="200" alt="Карта">
+      </section>
 
+    </main>
   </body>
 </html>
