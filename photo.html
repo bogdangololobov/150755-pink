@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -39,63 +40,91 @@
       </section>
       <section class="post post--panorama">
         <h2 class="visually-hidden">Панорама дня</h2>
-        <img class="post__photo post__photo--panorama" src="http://placehold.it/320x137" width="320" height="137" alt="Панорама дня">
-        <h3 class="post__autor">Анна</h3>
-        <span class="post__time">(5 минут назад)</span>
-        <p class="post__text">Прыгать или нет? Напишите в коментарии сой совет и смотрите прямую трансляцию в перископе, задавайтесвои вопросы!</p>
-        <span class="post__heart">сердце</span>
-        <span class="post__likes">Нравится: 215</span>
+        <div class="post__photo-content post__photo-content--panorama">
+          <img class="post__photo post__photo--panorama" src="http://placehold.it/320x137" width="320" height="137" alt="Панорама дня">
+        </div>
+        <div class="post__text-content">
+          <h3 class="post__autor">Анна</h3>
+          <span class="post__time">(5 минут назад)</span>
+          <p class="post__text">Прыгать или нет? Напишите в коментарии сой совет и смотрите прямую трансляцию в перископе, задавайтесвои вопросы!</p>
+          <span class="post__heart">сердце</span>
+          <span class="post__likes">Нравится: 215</span>
+        </div>
       </section>
       <section class="post">
         <h2 class="visually-hidden">Посты пользователей</h2>
         <ul class="post__list">
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Левон</h3>
-            <span class="post__time">(5 часов назад)</span>
-            <p class="post__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится: 356</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Левон</h3>
+              <span class="post__time">(5 часов назад)</span>
+              <p class="post__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится: 356</span>
+            </div>
           </li>
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Антон</h3>
-            <span class="post__time">(12 часов назад)</span>
-            <p class="post__text">Соседи будут рады!</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится: 666</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Антон</h3>
+              <span class="post__time">(12 часов назад)</span>
+              <p class="post__text">Соседи будут рады!</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится: 666</span>
+            </div>
           </li>
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Борис</h3>
-            <span class="post__time">(20 часов назад)</span>
-            <p class="post__text">Здесь могла бы быть ваша цитата о высоком и вечном.</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится: 215</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Борис</h3>
+              <span class="post__time">(20 часов назад)</span>
+              <p class="post__text">Здесь могла бы быть ваша цитата о высоком и вечном.</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится: 215</span>
+            </div>
           </li>
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Сергей</h3>
-            <span class="post__time">(25 часов назад)</span>
-            <p class="post__text">Самая кубанская в мире!</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится: 4</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Сергей</h3>
+              <span class="post__time">(25 часов назад)</span>
+              <p class="post__text">Самая кубанская в мире!</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится: 4</span>
+            </div>
           </li>
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Максим</h3>
-            <span class="post__time">(40 часов назад)</span>
-            <p class="post__text">Где снег-то?</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится: 150</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Максим</h3>
+              <span class="post__time">(40 часов назад)</span>
+              <p class="post__text">Где снег-то?</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится: 150</span>
+            </div>
           </li>
           <li class="post__item">
-            <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
-            <h3 class="post__autor">Надежда</h3>
-            <span class="post__time">(45 часов назад)</span>
-            <p class="post__text">Всем GM и взаимные лайки!</p>
-            <span class="post__heart">сердце</span>
-            <span class="post__likes">Нравится:2560</span>
+            <div class="post__photo-content">
+              <img class="post__photo" src="http://placehold.it/280x180" width="280" height="180" alt="Изображение с поста">
+            </div>
+            <div class="post__text-content">
+              <h3 class="post__autor">Надежда</h3>
+              <span class="post__time">(45 часов назад)</span>
+              <p class="post__text">Всем GM и взаимные лайки!</p>
+              <span class="post__heart">сердце</span>
+              <span class="post__likes">Нравится:2560</span>
+            </div>
           </li>
         </ul>
       </section>
@@ -116,9 +145,9 @@
               <div class="range-control__toggle"></div>
             </div>
           </div>
-          <div class="send-photo__buttons">
-            <button class="button button--send" type="submit">Запостить</button>
-            <button class="button button--cancel">Отмена</button>
+          <div class="send-photo__buttons button">
+            <button class="button send-photo__buttons--send" type="submit">Запостить</button>
+            <button class="button send-photo__buttons--cancel">Отмена</button>
           </div>
         </form>
       </section>

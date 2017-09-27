@@ -1,0 +1,23 @@
+.form-contacts {
+  padding: 42px 20px;
+}
+
+.form-contacts__list {
+  list-style: none;
+}
+
+.form-contacts__item input {
+  display: block;
+  border: 2px solid #e5e5e5;
+  border-radius: 2px;
+  color: inherit;
+  font: inherit;
+}
+
+.form-contacts__item label {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px;
+  color: #d22856;
+  padding-left: 15px;
+}

@@ -1,0 +1,40 @@
+.price {
+  background-color: #f2f2f2;
+  padding-top: 90px;
+}
+
+.price__list {
+  list-style: none;
+}
+
+.price__header {
+  background-color: #283645;
+  border: 2px solid #e5e5e5;
+}
+
+.price__name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.price__text {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+}
+
+.price__content-list {
+  list-style: none;
+}
+
+.price__content-item {
+  padding-left: 20px;
+  padding-right: 90px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

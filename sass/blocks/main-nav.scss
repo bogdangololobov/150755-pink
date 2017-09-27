@@ -1,0 +1,21 @@
+.main-nav {
+  color: #ffffff;
+  background-color: rgba(0,0,0,.3);
+}
+
+.main-nav__list {
+  list-style: none;
+  padding: 18px 90px;
+}
+
+.main-nav__item {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  border-top: 1px solid #495461;
+  border-bottom: 1px solid #000;
+}
+
+.main-nav__link {
+  color: #ffffff;
+}

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -84,13 +85,13 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="contacts">
-            <ul class="contacts__list">
-              <li class="contacts__item">
+          <fieldset class="form-contacts">
+            <ul class="form-contacts__list">
+              <li class="form-contacts__item">
                 <label for="tel">Номер телефончика</label>
                 <input type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{4}" name="tel" id="tel" placeholder="Номер, пожалуйста">
               </li>
-              <li class="contacts__item">
+              <li class="form-contacts__item">
                 <label for="email">Номер телефончика</label>
                 <input type="email" pattern="[0-9]{1}-[0-9]{3}-[0-9]{4}" name="email" id="email" placeholder="Введите почту*">
               </li>
@@ -115,7 +116,7 @@
           </fieldset>
           <fieldset class="emotions">
             <legend class="emotions__title">Опишите свои эмоции</legend>
-            <textarea placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <textarea class="emotions__text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </fieldset>
           <div class="send-form">
             <button class="send-form__button button" type="submit">Отправить форму</button>
